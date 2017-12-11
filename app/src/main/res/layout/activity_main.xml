@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="bascula.quinteros.jorgeluis.bascula_jorgeluisquinteros.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="31dp"
+        android:layout_gravity="center_horizontal"
+        android:text="APLICACIÓN BASCULA"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="60dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/id_frutas"
+                android:layout_width="110dp"
+                android:layout_height="100dp"
+                android:paddingRight="10dp"
+                app:srcCompat="@drawable/frutas_" />
+
+            <ImageView
+                android:id="@+id/id_verduras"
+                android:layout_width="110dp"
+                android:layout_height="100dp"
+                android:paddingRight="10dp"
+                app:srcCompat="@drawable/verduras1" />
+
+            <ImageView
+                android:id="@+id/id_refresco"
+                android:layout_width="110dp"
+                android:layout_height="100dp"
+                android:paddingRight="10dp"
+                app:srcCompat="@drawable/referescos" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="FRUTAS"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="VERDURAS"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="REFRESCO"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp">
+
+            <ImageView
+                android:id="@+id/id_imprimir"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:srcCompat="@drawable/ticket" />
+
+            <ImageView
+                android:id="@+id/id_exit"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:srcCompat="@drawable/salir" />
+
+            <ImageView
+                android:id="@+id/id_cancelar"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:srcCompat="@drawable/cancel" />
+
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

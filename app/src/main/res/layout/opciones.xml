@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_seguir_en"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SEGUIR EN " />
+
+    <Button
+        android:id="@+id/btn_go_incio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IR A INICIO" />
+
+    <Button
+        android:id="@+id/btn_endCompra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TERMINAR COMPRA" />
+</LinearLayout>
