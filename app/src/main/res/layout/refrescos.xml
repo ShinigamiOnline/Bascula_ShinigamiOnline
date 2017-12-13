@@ -27,25 +27,25 @@
 
             <ImageView
                 android:id="@+id/id_cocacola"
-                android:layout_width="100dp"
+                android:layout_width="80dp"
                 android:layout_height="100dp"
                 app:srcCompat="@drawable/coca_cola" />
 
             <ImageView
                 android:id="@+id/id_fantalimon"
-                android:layout_width="100dp"
+                android:layout_width="106dp"
                 android:layout_height="100dp"
                 app:srcCompat="@drawable/fanta_limon" />
 
             <ImageView
                 android:id="@+id/id_fantanaranja"
-                android:layout_width="100dp"
+                android:layout_width="116dp"
                 android:layout_height="100dp"
                 app:srcCompat="@drawable/fanta_naranja" />
 
             <ImageView
                 android:id="@+id/id_agua"
-                android:layout_width="100dp"
+                android:layout_width="65dp"
                 android:layout_height="100dp"
                 app:srcCompat="@drawable/agua" />
         </TableRow>
